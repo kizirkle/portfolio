@@ -7,7 +7,7 @@ export default function Portfolio () {
             My Works
         </h2>
         <aside> 
-            <h2 className='works-label'>Collaborative</h2>
+            <h2 className='works-label'>Agile</h2>
             {/* Displaying Collaborative Works On The Page */}
             <div className='works-div'>
                 {cWorks.map((app) =>(

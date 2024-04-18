@@ -63,15 +63,15 @@ const pWorks = [
 //Certificate Challenges
 
 const ceWorks = [
-    {
-        id: '1',
-        appUrl: 'https://kiz1rkle.github.io/portfolio-OLD/',
-        repoUrl: 'https://github.com/kiz1rkle/portfolio-OLD',
-        imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
-        imgAlt: '#',
-        title: 'Old Portfolio',
-        desc: 'This is an outdated version of my current portfolio. This website showcases my knowledge on Html and Css.'
-    },
+    // {
+    //     id: '1',
+    //     appUrl: 'https://kiz1rkle.github.io/portfolio-OLD/',
+    //     repoUrl: 'https://github.com/kiz1rkle/portfolio-OLD',
+    //     imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
+    //     imgAlt: '#',
+    //     title: 'Old Portfolio',
+    //     desc: 'This is an outdated version of my current portfolio. This website showcases my knowledge on Html and Css.'
+    // },
     {
         id: '2',
         appUrl: 'https://kiz1rkle.github.io/ch3-javascript-password-generator/',
