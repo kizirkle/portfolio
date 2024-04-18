@@ -17,8 +17,8 @@
 const cWorks = [
     {
         id: '1',
-        appUrl: 'https://ruckusenjoyer.github.io/Kitty-Cove/index.html',
-        repoUrl: 'https://github.com/RuckusEnjoyer/Kitty-Cove',
+        appUrl: 'https://kiz1rkle.github.io/Kitty-Cove/index.html',
+        repoUrl: 'https://github.com/kiz1rkle/Kitty-Cove',
         imageUrl: 'kclogo.png',
         imgAlt: '#',
         title: 'Kitty Cove',
@@ -27,7 +27,7 @@ const cWorks = [
     {
         id: '2',
         appUrl: 'https://guarded-plateau-06638-3f412fce1c4c.herokuapp.com',
-        repoUrl: 'https://github.com/RuckusEnjoyer/travel-blog',
+        repoUrl: 'https://github.com/kiz1rkle/travel-blog',
         imageUrl: 'voyagelogo.png',
         imgAlt: 'Logo for Voyage',
         title: 'Voyage',
@@ -51,8 +51,8 @@ const cWorks = [
 const pWorks = [
     // {
     //     id: '1',
-    //     appUrl: 'https://ruckusenjoyer.github.io/portfolio-OLD/',
-    //     repoUrl: 'https://github.com/RuckusEnjoyer/portfolio-OLD',
+    //     appUrl: 'https://kiz1rkle.github.io/portfolio-OLD/',
+    //     repoUrl: 'https://github.com/kiz1rkle/portfolio-OLD',
     //     imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
     //     imgAlt: '#',
     //     title: 'Random Everything',
@@ -65,8 +65,8 @@ const pWorks = [
 const ceWorks = [
     {
         id: '1',
-        appUrl: 'https://ruckusenjoyer.github.io/portfolio-OLD/',
-        repoUrl: 'https://github.com/RuckusEnjoyer/portfolio-OLD',
+        appUrl: 'https://kiz1rkle.github.io/portfolio-OLD/',
+        repoUrl: 'https://github.com/kiz1rkle/portfolio-OLD',
         imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
         imgAlt: '#',
         title: 'Old Portfolio',
@@ -74,8 +74,8 @@ const ceWorks = [
     },
     {
         id: '2',
-        appUrl: 'https://ruckusenjoyer.github.io/ch3-javascript-password-generator/',
-        repoUrl: 'https://github.com/RuckusEnjoyer/ch3-javascript-password-generator',
+        appUrl: 'https://kiz1rkle.github.io/ch3-javascript-password-generator/',
+        repoUrl: 'https://github.com/kiz1rkle/ch3-javascript-password-generator',
         imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
         imgAlt: '#',
         title: 'Javascript Password Generator',
@@ -83,8 +83,8 @@ const ceWorks = [
     },
     {
         id: '3',
-        appUrl: 'https://ruckusenjoyer.github.io/ch4-code-test/',
-        repoUrl: 'https://github.com/RuckusEnjoyer/ch4-code-test',
+        appUrl: 'https://kiz1rkle.github.io/ch4-code-test/',
+        repoUrl: 'https://github.com/kiz1rkle/ch4-code-test',
         imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
         imgAlt: '#',
         title: 'Code Miniquiz',
@@ -93,7 +93,7 @@ const ceWorks = [
     {
         id: '4',
         appUrl: 'https://drive.google.com/file/d/17Az-FOT3lxAXjbmVUUwX97-SqyCUE76v/view',
-        repoUrl: 'https://ruckusenjoyer.github.io/ch4-code-test/',
+        repoUrl: 'https://kiz1rkle.github.io/ch4-code-test/',
         imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
         imgAlt: '#',
         title: 'README Maker',
@@ -102,7 +102,7 @@ const ceWorks = [
     {
         id: '5',
         appUrl: 'https://drive.google.com/file/d/1hGgQgAVF5F-z3BnFnrOWgckbfUbaEnKt/view',
-        repoUrl: 'https://github.com/RuckusEnjoyer/svg-logo-maker',
+        repoUrl: 'https://github.com/kiz1rkle/svg-logo-maker',
         imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
         imgAlt: '#',
         title: 'SVG Logo Maker',
@@ -120,7 +120,7 @@ const ceWorks = [
     {
         id: '7',
         appUrl: 'https://shrouded-plateau-32289-c0854ac44300.herokuapp.com',
-        repoUrl: 'https://github.com/RuckusEnjoyer/blog-site',
+        repoUrl: 'https://github.com/kiz1rkle/blog-site',
         imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
         imgAlt: '#',
         title: 'Blog Site',
