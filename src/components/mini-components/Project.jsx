@@ -5,16 +5,16 @@ export default function Project({app}) {
         <div className="card">
             <div>
                 <h3 className='title'>{app.title}</h3>
-                <a href={app.appUrl}>
+                <a target="_blank" href={app.appUrl}>
                     <img src={app.imageUrl} alt={app.imgAlt}/>
                 </a>
             </div>
             
             <p>{app.desc}</p>
-            <a href={app.repoUrl}>
+            <a target="_blank" href={app.repoUrl}>
                 <button>Repo Link</button>
             </a>
-            <a href={app.appUrl}>
+            <a target="_blank" href={app.appUrl}>
                 <button>App Link</button>
             </a>
                         
