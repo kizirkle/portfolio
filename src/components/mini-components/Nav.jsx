@@ -13,10 +13,10 @@ function Nav(){
             <a href='/contact'>Contact Me</a>
             <a href='/resume'>Resume</a> */}
 
-            <a href='/'>About Me</a>
-            <a href='#Works'>Portfolio</a>
-            <a href='#contact-div'>Contact Me</a>
-            <a href='#resumepage'>Resume</a>
+            <a href='/' className="nav-item">About Me</a>
+            <a href='#Works' className="nav-item">Portfolio</a>
+            <a href='#contact-div' className="nav-item">Contact Me</a>
+            <a href='#resumepage' className="nav-item">Resume</a>
         </nav>
 
     )

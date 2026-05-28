@@ -1,19 +1,19 @@
 import Nav from './mini-components/Nav'
-
+//import Nav from 'react-bootstrap/Nav'
 export default function Header() {
 
     return(
         <>
-            <header>
-                <h1>Portfolio</h1>
+            <header class="header">
+                <h1>Kurtis Zirkle</h1>
                 <Nav />
             </header>
-            <div>
+            <div id="header-img-container">
                 <img id='header-img' src="face.png" />
             </div>
 
             <aside id="hello">
-                <h2>Hello from Kurtis Pullman! 
+                <h2>Hello from Kurtis Zirkle! 
                     <br />
                     <span className="small">Welcome to my Portfolio.</span>
                 </h2>

@@ -1,8 +1,8 @@
 :root {
-  --green: #afbd64;
-  --light: #f7f6e0;
-  --dark: #4c6333;
-  --shadow: #c7b888;
+  --green: #ac8bcc;
+  --light: #181025;
+  --dark: #ffffff;
+  --shadow: #0b090c;
   width: 100%;
 }
 
@@ -59,6 +59,7 @@ p {
 header {
       display: flex;
       flex-wrap: wrap;
+      text-align:center;
       text-decoration: underline;
       justify-content: space-between;
       background-color: var(--green);
@@ -67,6 +68,8 @@ header {
       align-items: baseline;
       border-color: var(--dark);
       box-sizing: border-box;
+      border-bottom-left-radius: 90% 10%;
+      border-bottom-right-radius: 90% 10%;
       width: 100%;
       animation-name: fadein;
       animation-duration: 3s;
@@ -78,13 +81,18 @@ nav {
     color: var(--light);
 }
 
-nav a {
+.nav {
     padding: 40px;
-    /* margin-left: 0px; */
-    text-decoration: underline;
-    color: var(--light);
+    margin-left: 0px;
+    
     font-size: 30px;
 
+}
+
+.nav-item {
+    margin:10px;
+    text-decoration: underline;
+    color: var(--light);
 }
 
 nav a:hover {
@@ -95,10 +103,6 @@ div {
     position: relative;
 }
 
-#header-img {
-    animation-name: picslide;
-    animation-duration: 2s;
-}
 
 div img {
     position: absolute;
@@ -108,7 +112,12 @@ div img {
     border: 5px solid var(--light);
     top: -40px;
 }
-  
+
+#header-img {
+    animation-name: picslide;
+    animation-duration: 2s;
+}
+
 Footer {
     /* position: fixed; */
     width: 100%;
@@ -322,12 +331,13 @@ Footer {
   #resume {
     width: 100%;
     height: auto;
-    padding: 5vw 0vw;
+    margin: 0px;
+    padding: 0px;
     margin-bottom: 5vw;
     background-color: var(--green);
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: space-around;
     animation-name: fadein;
     animation-duration: 3s;
   }
@@ -379,7 +389,13 @@ Footer {
 }
 
   /* Inquiries */
-  
+
+  @media screen and (max-width: 1000px) {
+      /* header */
+      
+
+      
+    }
   @media screen and (max-width: 800px) {
       .card {
           width: 100%;
@@ -387,9 +403,26 @@ Footer {
       #About {
           width: 100%;
       }
+      header {
+          display:flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 0px;
+          text-align: center;
+      }
       header nav{
         flex-direction: column;
       }
+      #header-img-container {
+        width: 100%;
+        display:flex;
+        justify-content: center;
+      }
+      #header-img {
+        position: relative;
+        width: 50%;
+        margin: 0px;
+        }
   }
   
   @media screen and (max-width: 300px) {
