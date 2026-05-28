@@ -53,7 +53,6 @@ function App() {
       {/* <RouterProvider router={router}/> */}
       <AboutMe />
       <Portfolio />
-      <Contact />
       <Resume />
       <Links />
       <Footer />

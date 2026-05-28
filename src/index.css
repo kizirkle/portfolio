@@ -1,6 +1,6 @@
 :root {
-  --green: #ac8bcc;
-  --light: #181025;
+  --green: #afbc98;
+  --light: #14110f;
   --dark: #ffffff;
   --shadow: #0b090c;
   width: 100%;
@@ -337,11 +337,23 @@ Footer {
     background-color: var(--green);
     display: flex;
     flex-direction: row;
-    align-items: space-around;
+    align-items: baseline;
+    justify-content: space-around;
     animation-name: fadein;
     animation-duration: 3s;
   }
 
+  #resume-preview{
+    margin:20px;
+        width: 500px;
+        height: 400px;
+        border: solid 5px var(--light);
+        box-shadow: 10px 5px 5px var(--shadow);
+  }
+  #resume-preview iframe {
+    display:block;
+    top: -900px;
+  }
   .download {
     background-color: var(--dark);
     color: var(--light);
@@ -423,6 +435,12 @@ Footer {
         width: 50%;
         margin: 0px;
         }
+    section h2 {
+        text-align: center;
+    }
+    #About aside {
+        align-items: center;
+    }
   }
   
   @media screen and (max-width: 300px) {
