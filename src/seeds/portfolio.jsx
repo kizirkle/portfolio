@@ -84,7 +84,7 @@ const ceWorks = [
         id: '2',
         appUrl: 'https://kizirkle.github.io/Weather-App/',
         repoUrl: 'https://github.com/kizirkle/Weather-App',
-        imageUrl: '/',
+        imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
         imgAlt: '#',
         title: 'Weather App',
         desc: ' A rudimentary weather app that displays temperature, humidity, and wind speed for a city you choose! '
