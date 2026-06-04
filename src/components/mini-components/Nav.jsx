@@ -15,8 +15,9 @@ function Nav(){
 
             <a href='/' className="nav-item">About Me</a>
             <a href='#Works' className="nav-item">Portfolio</a>
-            <a href='#contact-div' className="nav-item">Contact Me</a>
             <a href='#resumepage' className="nav-item">Resume</a>
+            <a href='#links' className="nav-item">Contact Me</a>
+
         </nav>
 
     )

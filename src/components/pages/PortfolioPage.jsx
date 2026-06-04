@@ -20,15 +20,6 @@ export default function Portfolio () {
             <h2 className='works-label'>Personal Projects</h2>
             {/* Displaying Personal Projects on the Page */}
             <div className='works-div'>
-                {pWorks.map((app) =>(
-                    <Project key={app.id} app={app}/>
-                ))}
-            </div>
-        </aside>
-        <aside> 
-            <h2 className='works-label'>Certificate Projects</h2>
-            {/* Displaying Personal Projects on the Page */}
-            <div className='works-div'>
                 {ceWorks.map((app) =>(
                     <Project key={app.id} app={app}/>
                 ))}

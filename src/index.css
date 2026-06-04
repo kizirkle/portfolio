@@ -336,6 +336,7 @@ Footer {
     margin-bottom: 5vw;
     background-color: var(--green);
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-around;
@@ -346,13 +347,13 @@ Footer {
   #resume-preview{
     margin:20px;
         width: 500px;
-        height: 400px;
+        height: 600px;
         border: solid 5px var(--light);
         box-shadow: 10px 5px 5px var(--shadow);
   }
-  #resume-preview iframe {
-    display:block;
-    top: -900px;
+  iframe {
+    position:absolute;
+    top: 0px;
   }
   .download {
     background-color: var(--dark);
@@ -443,7 +444,7 @@ Footer {
     }
   }
   
-  @media screen and (max-width: 300px) {
+  @media screen and (max-width: 400px) {
       /* header */
       header {
           width: 100vw;
@@ -467,20 +468,25 @@ Footer {
       .card {
           flex-shrink: 2;
           width: 100%;
+          width: 300px;
           display: flex;
           flex-flow: column;
-          align-items: flex-start;
+          align-items: center;
+          justify-content: center;
       }
       .card h3 {
           margin: 10px;
       }
       .card p {
           margin: 10px;
+          text-align: center;
+      }
+      .card button {
+        margin:6px;
       }
       .card img {
           width: 60vw;
           height: 25vh;
-          left: 35px;
       }
   }
   

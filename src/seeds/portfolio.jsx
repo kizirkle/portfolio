@@ -42,7 +42,15 @@ const cWorks = [
         title: 'Fight My Dad!',
         desc: 'Fight My Dad! Is the answer to the age-old accusation: My dad can beat up your dad. Can he? Find out in this browser game.'
     },
-    
+    {
+        id: '4',
+        appUrl: 'https://remind-rx-807d225f49a6.herokuapp.com/',
+        repoUrl: 'https://github.com/kizirkle/RemindRX',
+        imageUrl: 'remindrxlogo.png',
+        imgAlt: 'Logo for RemindRX',
+        title: 'RemindRX',
+        desc: 'A medication hub that allows patients and doctors to view, report, and control prescriptions! '
+    },
 
 ];
 
@@ -63,26 +71,8 @@ const pWorks = [
 //Certificate Challenges
 
 const ceWorks = [
-    // {
-    //     id: '1',
-    //     appUrl: 'https://kiz1rkle.github.io/portfolio-OLD/',
-    //     repoUrl: 'https://github.com/kiz1rkle/portfolio-OLD',
-    //     imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
-    //     imgAlt: '#',
-    //     title: 'Old Portfolio',
-    //     desc: 'This is an outdated version of my current portfolio. This website showcases my knowledge on Html and Css.'
-    // },
     {
-        id: '2',
-        appUrl: 'https://kiz1rkle.github.io/ch3-javascript-password-generator/',
-        repoUrl: 'https://github.com/kiz1rkle/ch3-javascript-password-generator',
-        imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
-        imgAlt: '#',
-        title: 'Javascript Password Generator',
-        desc: 'This is an app that gives a randomized password. This website showcases my knowledge on simple javascript and math.floor. The front end of this app was created by edX.'
-    },
-    {
-        id: '3',
+        id: '1',
         appUrl: 'https://kiz1rkle.github.io/ch4-code-test/',
         repoUrl: 'https://github.com/kiz1rkle/ch4-code-test',
         imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
@@ -91,40 +81,13 @@ const ceWorks = [
         desc: 'This is an app that quizzes you on javascript. This web app showcases my knowledge on jquery, javascript, and local storage.'
     },
     {
-        id: '4',
-        appUrl: 'https://drive.google.com/file/d/17Az-FOT3lxAXjbmVUUwX97-SqyCUE76v/view',
-        repoUrl: 'https://kiz1rkle.github.io/ch4-code-test/',
-        imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
+        id: '2',
+        appUrl: 'https://kizirkle.github.io/Weather-App/',
+        repoUrl: 'https://github.com/kizirkle/Weather-App',
+        imageUrl: '/',
         imgAlt: '#',
-        title: 'README Maker',
-        desc: 'This is a purely back-end app that creates a README automatically based on a collection of questions. This shows off my knowledge on Node.js and Inquirer.'
-    },
-    {
-        id: '5',
-        appUrl: 'https://drive.google.com/file/d/1hGgQgAVF5F-z3BnFnrOWgckbfUbaEnKt/view',
-        repoUrl: 'https://github.com/kiz1rkle/svg-logo-maker',
-        imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
-        imgAlt: '#',
-        title: 'SVG Logo Maker',
-        desc: 'This is a purely back-end app that creates a simple SVG image based on inquirer prompts. This app shows off my knowledge on Node.js, Inquirer, and creating tests in Jest.'
-    },
-    {
-        id: '6',
-        appUrl: 'https://safe-plains-29301-f117403823f1.herokuapp.com',
-        repoUrl: 'https://drive.google.com/file/d/1hGgQgAVF5F-z3BnFnrOWgckbfUbaEnKt/view',
-        imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
-        imgAlt: '#',
-        title: 'Note Taker',
-        desc: 'This is an app that creates global notes on a page. This website shows off my knowledge on express routes and written databases. The front end of this app was provided by edX.'
-    },
-    {
-        id: '7',
-        appUrl: 'https://shrouded-plateau-32289-c0854ac44300.herokuapp.com',
-        repoUrl: 'https://github.com/kiz1rkle/blog-site',
-        imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
-        imgAlt: '#',
-        title: 'Blog Site',
-        desc: 'This is a small tech blog. This website shows off my knowledge on MySQL databases, express.js, node.js, sequelize, and handlebars.'
+        title: 'Weather App',
+        desc: ' A rudimentary weather app that displays temperature, humidity, and wind speed for a city you choose! '
     },
 ]
 

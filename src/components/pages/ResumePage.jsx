@@ -9,7 +9,7 @@ export default function Resume () {
                     <h2>
                         Kurtis Zirkle Resume
                     </h2>
-                    <iframe src="Kurtis-Zirkle-Resume.pdf" width="100%" height="600px"></iframe>
+                    <iframe src="Kurtis-Zirkle-Resume.pdf"  width="100%" height="600px"></iframe>
                 </div>
                 <div>
                     {/* place resume download here */}
