@@ -42,11 +42,11 @@ Tests for this application is currently unavailable.
 ## Link
 
 Here is the link to the deployed version of this app:
-https://ruckusenjoyer-coding-portfolio.netlify.app
+https://kizirkle-portfolio.netlify.app
     
 ## Questions
 
 Have any questions? This is how to contact me:
 
-Github: https://github.com/RuckusEnjoyer
+Github: https://github.com/kizirkle
     
