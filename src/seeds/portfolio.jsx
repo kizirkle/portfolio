@@ -75,7 +75,7 @@ const ceWorks = [
         id: '1',
         appUrl: 'https://kiz1rkle.github.io/ch4-code-test/',
         repoUrl: 'https://github.com/kiz1rkle/ch4-code-test',
-        imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
+        imageUrl: 'codingquiz.png',
         imgAlt: '#',
         title: 'Code Miniquiz',
         desc: 'This is an app that quizzes you on javascript. This web app showcases my knowledge on jquery, javascript, and local storage.'
@@ -84,7 +84,7 @@ const ceWorks = [
         id: '2',
         appUrl: 'https://kizirkle.github.io/Weather-App/',
         repoUrl: 'https://github.com/kizirkle/Weather-App',
-        imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
+        imageUrl: 'weather.png',
         imgAlt: '#',
         title: 'Weather App',
         desc: ' A rudimentary weather app that displays temperature, humidity, and wind speed for a city you choose! '
