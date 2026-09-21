@@ -98,7 +98,7 @@ const pWorks = [
 //         title: 'Weather App',
 //         desc: ' A rudimentary weather app that displays temperature, humidity, and wind speed for a city you choose! '
 //     },
-]
+// ]
 
 
 //exporting my files!!!
