@@ -16,6 +16,15 @@
 
 const cWorks = [
     {
+        id: '5',
+        appUrl: 'https://percyphone.vercel.app/',
+        repoUrl: 'https://github.com/kizirkle/percyphone',
+        imageUrl: 'percyphone.jpg',
+        imgAlt: '#',
+        title: 'Percyphone',
+        desc: 'An e-commerce site utilizing Snipcart for a creator to sell custom merchandise.'
+    },
+    {
         id: '1',
         appUrl: 'https://kiz1rkle.github.io/Kitty-Cove/index.html',
         repoUrl: 'https://github.com/kiz1rkle/Kitty-Cove',
