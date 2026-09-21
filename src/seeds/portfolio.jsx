@@ -83,7 +83,7 @@ const ceWorks = [
     {
         id: '1',
         appUrl: 'https://kiz1rkle.github.io/ch4-code-test/',
-        repoUrl: 'https://github.com/kiz1rkle/ch4-code-test',
+        repoUrl: 'https://github.com/kizirkle/ch4-code-test',
         imageUrl: 'codingquiz.png',
         imgAlt: '#',
         title: 'Code Miniquiz',
